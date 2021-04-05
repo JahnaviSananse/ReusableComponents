@@ -1,6 +1,6 @@
 import React from 'react';
 // import * as images from '../images/images';
-import ImageDeatails from '../components/imageDetails';
+import ImageDeatails from '../components/Image/imageDetails';
 import {StyleSheet, View, Text, Image, Button} from 'react-native';
 
 const demo = () => {
@@ -14,6 +14,7 @@ const demo = () => {
           backgroundColor: 'yellow',
           marginTop: 10,
         }}>
+        {/* <Image style={styles.img} source={require('./like.png')} /> */}
         <ImageDeatails />
         <Text style={{fontSize: 20, top: 40, left: 20}}> React-Native </Text>
       </View>
